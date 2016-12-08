@@ -1,10 +1,33 @@
 #display {
-    margin-left: 45%;
+    margin-left: 35%;
     /*margin-right: 45%;*/
     margin-top: 50px;
 }
 
 #num1 {
+    display: inline-block;
+}
+
+.colon {
+    font-size: 100px;
+    vertical-align: top;
+    text-decoration-color: red;
+    display: inline-block;
+}
+
+#hr2 {
+    margin-left: 10px;
+}
+
+#min2 {
+    margin-left: 10px;
+}
+
+#sec2 {
+    margin-left: 10px;
+}
+
+.timeClass {
     display: inline-block;
 }
 
@@ -16,45 +39,45 @@
     background-color: red;
 }
 
-#rect1 {
+.rect1 {
     width: 50px;
     height: 5px;
     /*display: inline-block;*/
 }
 
-#rect2 {
+.rect2 {
     width: 5px;
     height: 50px;
     display: inline-block;
 }
 
-#rect3 {
+.rect3 {
     width: 5px;
     height: 50px;
     display: inline-block;
     margin-left: 40px;
 }
 
-#rect4 {
+.rect4 {
     width: 50px;
     height: 5px;
     /*display: inline-block;*/
 }
 
-#rect5 {
+.rect5 {
     width: 5px;
     height: 50px;
     display: inline-block;
 }
 
-#rect6 {
+.rect6 {
     width: 5px;
     height: 50px;
     display: inline-block;
     margin-left: 40px;
 }
 
-#rect7 {
+.rect7 {
     width: 50px;
     height: 5px;
 }
