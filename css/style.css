@@ -1,0 +1,60 @@
+#display {
+    margin-left: 45%;
+    /*margin-right: 45%;*/
+    margin-top: 50px;
+}
+
+#num1 {
+    display: inline-block;
+}
+
+.black {
+    background-color: #F5F4F3; 
+}
+
+.red {
+    background-color: red;
+}
+
+#rect1 {
+    width: 50px;
+    height: 5px;
+    /*display: inline-block;*/
+}
+
+#rect2 {
+    width: 5px;
+    height: 50px;
+    display: inline-block;
+}
+
+#rect3 {
+    width: 5px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#rect4 {
+    width: 50px;
+    height: 5px;
+    /*display: inline-block;*/
+}
+
+#rect5 {
+    width: 5px;
+    height: 50px;
+    display: inline-block;
+}
+
+#rect6 {
+    width: 5px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#rect7 {
+    width: 50px;
+    height: 5px;
+}

@@ -2,113 +2,16 @@
 <html>
 <head>
     <title>Display</title>
-    <style type="text/css">
-        #display {
-            margin-left: 45%;
-            /*margin-right: 45%;*/
-            margin-top: 50px;
-        }
-        #num1 {
-            display: inline-block;
-        }
-        .black {
-            background-color: black; 
-        }
-        .red {
-            background-color: red;
-        }
-        #rect1 {
-            width: 200px;
-            height: 10px;
-            /*display: inline-block;*/
-        }
-        #rect2 {
-            width: 10px;
-            height: 200px;
-            display: inline-block;
-        }
-        #rect3 {
-            width: 10px;
-            height: 200px;
-            display: inline-block;
-            margin-left: 176px;
-        }
-        #rect4 {
-            width: 200px;
-            height: 10px;
-            /*display: inline-block;*/
-        }
-        #rect5 {
-            width: 10px;
-            height: 200px;
-            display: inline-block;
-        }
-        #rect6 {
-            width: 10px;
-            height: 200px;
-            display: inline-block;
-            margin-left: 176px;
-        }
-        #rect7 {
-            width: 200px;
-            height: 10px;
-        }
-        
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <input id="input">
-    <button id="submit">Submit</button>
     <div id="display">
-        <div id="num1">
-            <div id="rect1" class="black"></div>
-            <div id="rect2" class="black"></div>
-            <div id="rect3" class="black"></div>
-            <div id="rect4" class="black"></div>
-            <div id="rect5" class="black"></div>
-            <div id="rect6" class="black"></div>
-            <div id="rect7" class="black"></div>
+        <div id="sec">
+            <div id="sec1"></div>
+            <div id="sec2"></div>
         </div>
     </div>
-    <script src="jquery.min.js"></script>
-    <script>
-        var btn = $("#submit");
-        var input = $("#input");
-        var num;
-        
-        function startTime() {
-            var today = new Date();
-            var s = today.getSeconds();
-            // s = checkTime(s);
-            console.log(s);
-            var t = setTimeout(startTime, 500);
-        }
-        
-        btn.click(function() {
-            startTime();
-            for(var i=1; i <= 7; i++) {
-                var rect = "#rect" + i;
-                $(rect).removeClass("red");
-            }
-            console.log(Date.now());
-            num = input[0].value;
-            switch(num) {
-                case "1" :
-                    $("#rect3").addClass("red");
-                    $("#rect6").addClass("red");
-                    break;
-                case "2" :
-                    $("#rect1").addClass("red");
-                    $("#rect3").addClass("red");
-                    $("#rect4").addClass("red");
-                    $("#rect5").addClass("red");
-                    $("#rect7").addClass("red");
-                    break;
-                default: 
-                    console.log("Error");
-            }
-        });
-
-    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
