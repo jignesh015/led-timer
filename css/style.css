@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 #display {
     margin-left: 35%;
     /*margin-right: 45%;*/
@@ -10,8 +14,8 @@
 
 .colon {
     font-size: 100px;
+    color: #1E1D1D;
     vertical-align: top;
-    text-decoration-color: red;
     display: inline-block;
 }
 
@@ -32,11 +36,13 @@
 }
 
 .black {
-    background-color: #F5F4F3; 
+    background-color: #090909;
+
 }
 
 .red {
-    background-color: red;
+    background-color: #D40303;
+    box-shadow: 0 0 4px 1px #AAECE9; 
 }
 
 .rect1 {
